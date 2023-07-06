@@ -5,6 +5,11 @@
 #!homepage=https://github.com/Semporia/TikTok-Unlock
 #!icon= https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
 
+[Rule]
+
+# TikTok 加速规则
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list,TW,update-interval=3600
+
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) TW 307
