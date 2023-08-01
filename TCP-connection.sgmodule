@@ -1,4 +1,4 @@
-#!name=MITM跳过TCP连接
+#!name=1-MITM跳过TCP连接
 #!desc=MITM跳过TCP连接，更新外部资源时打开。
 #!system=ios
 
