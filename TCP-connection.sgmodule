@@ -1,6 +1,6 @@
-#!name=1-MITM跳过TCP连接
-#!desc=MITM跳过TCP连接，更新外部资源时打开。
+#!name=1-临时禁用 HTTP/2
+#!desc=临时禁用 MITM via HTTP/2。
 #!system=ios
 
 [MITM]
-tcp-connection = failed
+h2 = false
