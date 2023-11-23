@@ -6,10 +6,10 @@
 # 悬浮广告
 ^https:\/\/iflybuds\.oss-cn-hangzhou\.aliyuncs\.com\/files\/image\/\d+-\d+ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
 
-# 发现页
+# 发现页    https://www.iflybuds.com/pages/discovery/static/js/chunk-30c69ee4.b7838380.js
 ^https:\/\/www\.iflybuds\.com\/pages\/discovery\/static data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
 
-# 左上角
+# 左上角 “消息” https://www.iflybuds.com/pages/20231116/static/js/index-7c92f5c3c4.js
 ^https:\/\/www\.iflybuds\.com\/pages\/\d+\/static\/js\/index-\w+\.js data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
 
 [MITM]
