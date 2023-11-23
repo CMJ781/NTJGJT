@@ -3,7 +3,7 @@
 #!system=ios
 
 [Map Local]
-^https:\/\/iflybuds\.oss-cn-hangzhou\.aliyuncs\.com\/files\/image\/\d+-\d+\.png$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/ad.png"
+^https:\/\/iflybuds\.oss-cn-hangzhou\.aliyuncs\.com\/files\/image\/\d+-\d+\.png$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
 
 [MITM]
 hostname = iflybuds.oss-cn-hangzhou.aliyuncs.com
