@@ -1,0 +1,9 @@
+#!name=讯飞
+#!desc=净化 个人页随机图片
+#!system=ios
+
+[Map Local]
+^https:\/\/iflybuds\.oss-cn-hangzhou\.aliyuncs\.com\/files\/image\/\d+-\d+\.png$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/ad.png"
+
+[MITM]
+hostname = iflybuds.oss-cn-hangzhou.aliyuncs.com
