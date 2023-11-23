@@ -5,11 +5,8 @@
 [Map Local]
 ^https:\/\/iflybuds\.oss-cn-hangzhou\.aliyuncs\.com\/files\/image\/\d+-\d+ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
 
-# "发现" https://www.iflybuds.com/pages/discovery/static/js/chunk-30c69ee4.b7838380.js
-^https:\/\/www\.iflybuds\.com\/pages\/discovery\/static data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
-
-# “消息” https://www.iflybuds.com/pages/20231116/static/js/index-7c92f5c3c4.js
-^https:\/\/www\.iflybuds\.com\/pages\/d+-\/static data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+[Script]
+TopRed = type=http-response,pattern=^https:\/\/www\.iflybuds\.com\/pages\/\d+\/static\/js\/index-\w+\.js,requires-body=1,max-size=0,script-update-interval=-1,script-path=topred.js
 
 [MITM]
 hostname = iflybuds.oss-cn-hangzhou.aliyuncs.com, www.iflybuds.com
