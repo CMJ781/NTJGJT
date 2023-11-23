@@ -6,7 +6,7 @@
 ^https:\/\/iflybuds\.oss-cn-hangzhou\.aliyuncs\.com\/files\/image\/\d+-\d+ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
 
 [Script]
-TopRed = type=http-response,pattern=^https:\/\/www\.iflybuds\.com\/pages\/\d+\/static\/js\/index-\w+\.js,requires-body=1,max-size=0,script-update-interval=-1,script-path=topred.js
+TopRed = type=http-response,pattern=^https:\/\/www\.iflybuds\.com\/pages\/\d+\/static\/js\/index-\w+\.js,requires-body=1,max-size=0,script-update-interval=-1,script-path=https://raw.githubusercontent.com/CMJ781/RDNT/main/topred.js
 
 [MITM]
 hostname = iflybuds.oss-cn-hangzhou.aliyuncs.com, www.iflybuds.com
