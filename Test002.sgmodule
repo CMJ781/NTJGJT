@@ -9,5 +9,8 @@
 # 发现页
 ^https:\/\/www\.iflybuds\.com\/pages\/discovery\/static data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
 
+# 左上角
+^https:\/\/www\.iflybuds\.com\/pages\/\d+\/static\/js\/index-\w+\.js data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+
 [MITM]
 hostname = %APPEND% iflybuds.oss-cn-hangzhou.aliyuncs.com, www.iflybuds.com
