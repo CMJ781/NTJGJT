@@ -1,0 +1,7 @@
+#!name=11测试
+#!desc=11测试
+#!system=ios
+
+
+[Rule]
+OR,((DOMAIN-SUFFIX,ui.com,extended-matching), (IP-CIDR,192.168.6.0/24,no-resolve), (IP-CIDR,192.168.66.0/24,no-resolve), (IP-CIDR,192.168.8.0/24,no-resolve), (IP-CIDR,192.168.88.0/24,no-resolve)),UBNT
